@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+.contaner {
+  height: fit-content;
+  margin: 20px auto;
+  width: fit-content;
+}
+.form {
+  background-color: #eee;
+  padding: 20px;
+  border-radius: 5px;
+}
+.form .input {
+  background-color: white;
+  height: 29px;
+  border-radius: 16px;
+  margin-right: 2px;
+  border-style: none;
+  width: 500px;
+  font-size: 20px;
+  padding-left: 20px;
+}
+.input:focus {
+  outline: none;
+}
+.form .add {
+  background-color: red;
+  color: white;
+  border-style: none;
+  height: 29px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.taskes {
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #eee;
+}
+
+.taskes .taske p {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  background-color: white;
+  border-radius: 5px;
+  padding-left: 5px;
+  margin: 2px auto;
+}
+.taskes .taske p button {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 4px;
+  cursor: pointer;
+}
